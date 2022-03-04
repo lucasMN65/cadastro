@@ -1,0 +1,101 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+header{
+    width: 100%;
+    background-color: black;
+    height: 100%;
+    border-radius: 40px;
+    box-shadow: 0px 0px 3px black;
+}
+.grid{
+    width: 1200px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.posi-header{
+    position: relative;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(0, 0, 255);
+    text-transform: uppercase;
+    font-style: initial;
+    font-family:'Baskervville';
+    font-size: 20px;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.im img{
+    height: 70px;
+}
+.menu a:hover{
+    color: lightskyblue;
+    transition-duration: 0.5s;
+}
+section{
+    background-image: linear-gradient(to top, rgba(0, 0, 255, 0.623), transparent, rgba(0, 0, 255, 0.555));
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 500px;
+    padding: 15px;
+    width: 500px;
+    margin: 200px;
+    margin-left: 35%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
+}
+section h1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.cad{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.cad p{
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+.cad p a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 28px;
+    margin-left: 35%;
+    color: white;
+}
+.cad a:hover{
+    color: blue;
+    transition-duration: 0.5s;
+}
+.cad button{
+    background-color: blue;
+    width: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 39%;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.692);
+}
+
